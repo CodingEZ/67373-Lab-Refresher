@@ -1,4 +1,4 @@
 class Chore < ApplicationRecord
-    has_one :child
-    has_one :task
+    belongs_to :child
+    belongs_to :task
 end
